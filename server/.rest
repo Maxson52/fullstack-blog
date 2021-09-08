@@ -1,0 +1,10 @@
+GET http://localhost:8080/api/articles
+
+
+POST http://localhost:8080/api/articles HTTP/1.1
+content-type: application/json
+
+{
+    "title": "This is a test",
+    "text": "Of a blog website I made"
+}

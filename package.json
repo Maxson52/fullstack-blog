@@ -1,0 +1,16 @@
+{
+  "name": "fullstack-blog",
+  "version": "1.0.0",
+  "description": "Example of a RESTful API built with Node.js, Express.js, Mongoose and MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "devStart": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
